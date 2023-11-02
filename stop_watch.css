@@ -74,6 +74,44 @@ article {
   margin-top: 100px;
 }
 
+#watch-container {
+  background-color: #ffffffc2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 2rem;
+  box-shadow: 0 0 3px 1px #000;
+  border-radius: 2rem;
+}
+
+#watch {
+  font-size: 5rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 3px 1px #000;
+  width: 100%;
+}
+
+#watch-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+button {
+  font-size: 1.5rem;
+  border: none;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 3px 1px #000;
+}
+
 /* footer */
 
 footer {
